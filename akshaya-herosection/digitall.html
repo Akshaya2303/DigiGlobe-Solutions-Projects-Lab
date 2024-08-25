@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section</title>
+    <style>
+         /* section {
+            padding: 5px 20px;
+            margin: 10px;
+            background-color: #f4f4f4;
+            */
+            /* border-radius: 8px;  */
+         /* } */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .hero-section {
+            background: url('./Untitled\ design.jpg') center / cover no-repeat;
+            color:black;
+            text-align: center;
+            padding: 100px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 39vh;
+        }
+        nav {
+           
+            display: flex;
+            justify-content:space-evenly ;
+            align-items: center ;
+            width: 100%;
+            padding: 20px 40px;
+            position: absolute;
+            top: 0;
+        }
+        .logo {
+            max-height: 50px;
+        }
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-menu li {
+            margin-left: 20px;
+        }
+        .nav-menu li a {
+            color:black;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .hero-content {
+            max-width: 600px;
+            margin: auto;
+        }
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .cta-btn {
+            background-color: #ff5733;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        
+.icon{
+    width:20px;
+    height: 2px;
+    background-color: black;
+    margin: 6px;
+}
+.menu{
+    margin-left:-20%;
+    margin-top: -1%;
+}
+p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1%;
+    margin-right: -2%
+}
+.main .photo .aa{
+    /* margin-top: 2%; */
+    margin-left: 2%;
+}
+.space1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:40px ;
+    gap:2px;
+    margin-top: -2%;
+  }
+.photo{
+    display: flex; 
+}
+.main .photo1 .aa{
+    margin-top:-210px;
+    margin-left: 2%;
+}
+.photo1{
+    display: flex; 
+}
+.servicess{
+    margin-top: -209px;
+    margin-left: 2%;
+}
+.servicess ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.contacts{
+    margin-left: 2%;
+    display: flex;
+    gap: 60px;
+    flex-direction: row;
+
+
+}
+    </style>
+</head>
+<body>
+
+<div class="hero-section">
+    <nav>
+        <!-- <img src="./digi.jpeg" alt="Company Logo" class="logo"> -->
+        <ul class="nav-menu">
+            <li><a href="#home"><b><h3>Home</h3></b></a></li>
+            <li><a href="#Menu"><b><h3>Menu</h3></b></a></li>
+            <li><a href="#Snacks"><b><h3>Snacks</h3></b></a></li>
+            <li><a href="#services"><b><h3>Services</h3></b></a></li>
+            <li><a href="#contact"><b><h3>Contact</h3></b></a></li>
+        </ul>
+    </nav>
+    <section id="#home">
+    <div class="hero-content">
+        <h1 style="color:orangered;"><b><i>Fast food </i></b>   </h1>
+        <p><b>Welcome to our food page</b></p>
+        <p>We provide fresh and delicious food</p>
+        <!-- <a href="#portfolio" class="cta-btn">Learn More</a> -->
+    </div>
+</div></section>
+
+<!-- <section id="portfolio"></section> -->
+
+<section id="Menu">
+    <div class="main">
+      <div class="photo">
+        <div class="aa">
+          <img src="./sandwich.jpg" height="40%" width="100%" />
+          <div class="space1">
+            <br />
+            <p
+              style="
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 28px;
+              "
+            >
+            Sandwich
+            </p>
+            <p>
+                Sandwiches are a popular type of lunch food,    
+            </p>
+          </div>
+        </div>
+        <div class="aa">
+          <img src="./steak.jpg" height="40%" width="100%" />
+          <div class="space1">
+            <br />
+            <p
+              style="
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 28px;
+              "
+            >
+             Steak
+            </p>
+            <p>
+                It is normally grilled or fried.  </p>
+          </div>
+        </div>
+        <div class="aa">
+          <img src="./cherries.jpg" height="40%" width="100%" />
+          <div class="space1">
+            <br />
+            <p
+              style="
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 28px;
+              "
+            >
+              Cherries
+            </p>
+            <p>
+                Cherries are one of the first stone fruits
+            </p>
+          </div>
+        </div>
+        <div class="aa">
+          <img src="./pasta.jpg" height="40%" width="100%" />
+          <div class="space1">
+            <br />
+            <p
+              style="
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 28px;
+              "
+            >
+              Robust Wine and Vegetable Pasta
+            </p>
+            <p>Pasta is made from  wheat flour  .</p>
+          </div>
+        </div>
+      </div>
+      <section id="Snacks">
+      <div class="photo1">
+        <div class="aa">
+          <img src="./popsicle.jpg" height="40%" width="100%" />
+          <div class="space1">
+            <br />
+            <p
+              style="
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 28px;
+              "
+            >
+              Popsicle
+            </p>
+            <p> A popsicle, also known as an ice pop, </p>
+          </div>
+        </div>
+
+        <div class="aa">
+          <img src="./salmon.jpg" height="40%" width="100%" />
+          <div class="space1">
+            <br />
+            <p
+              style="
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 28px;">
+              Salmon 
+            </p>
+            <p>Salmon For Your Skin</p>
+          </div>
+        </div>
+        <div class="aa">
+          <img src="./sandwich 2.jpg" height="40%" width="100%" />
+          <div class="space1">
+            <br />
+            <p
+              style="
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 28px;" >
+              Sandwich
+            </p>
+            <p>
+            The sandwich is the most noble form of lunch
+            </p>
+          </div>
+        </div>
+        <div class="aa">
+          <img src="./croissant.jpg" height="40%" width="100%" />
+          <div class="space1">
+            <br />
+            <p
+              style="
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 28px;">
+              Croissant
+            </p>
+            <p>
+              Consisting of vegetables, cheese
+              or meat
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section> </section>
+  <section id="services">
+    <div class="servicess">
+        <h1>Services</h1>
+    <ul>
+        <li><h3>Food delivery available</h3></li>
+        <li><h3>Fresh and delicious food</h3></li>
+        <li><h3>Parcel and Shipment available</h3></li>
+        <li><h3>Fresh Ambient services </h3></li>
+    </ul>
+</div>
+  </section></section>
+  <!-- <br>
+  <br> <br>
+  <br>
+  <br>
+  <br> -->
+  <section id="contact">
+    <div class="contacts">
+       
+        <h1>Contact Us</h1>
+        <p>
+            <p>Locate us at---></p>
+
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15223.359390717616!2d78.37920178715821!3d17.467377800000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91e4e6aa88f7%3A0xb79a3ef3a0dab4a4!2sRainbows%20family%20Restaurant!5e0!3m2!1sen!2sin!4v1724503965106!5m2!1sen!2sin" width="190" height="190" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Location</iframe>
+         </p>   <br>
+         <p><a href="https://www.instagram.com"></a></p>
+          <p>  <a href="https://www.facebook.com/">facebook</a>
+          </p>
+          <p> <a href="mailto:akshayanayakidi@gmail.com">Fastfood@.com.com</a>
+            <br></p><p>
+            <a href="tel:+1234567890">call us</a>
+        </p>
+
+
+        </div>
+
+
+  </section>
+
+</body>
+</html>
